@@ -4,7 +4,7 @@ I built this to move past the "single messy notebook" stage of data science. Thi
 
 ---
 
-## 📊 Performance Summary
+## Performance Summary
 
 - **Mean Training RMSE:** 0.09855
 - **Out-Of-Fold Validation RMSE:** 0.11006
@@ -12,7 +12,7 @@ I built this to move past the "single messy notebook" stage of data science. Thi
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 advanced-housing-pipeline/
@@ -30,9 +30,9 @@ advanced-housing-pipeline/
 
 ---
 
-## 🧠 Code & Data Strategy
+## Strategy
 
-### 1. Detective Work (Outlier Removal)
+### 1. EDA
 
 Before modeling, I analyzed the feature distributions to find "high-leverage" outliers skewing the regression.
 
@@ -63,7 +63,7 @@ I didn't rely on one "magic" model. My final prediction is a weighted linear com
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 Ensure you have a Python environment ready, then install the dependencies:
 
